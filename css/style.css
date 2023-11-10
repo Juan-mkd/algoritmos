@@ -1,0 +1,44 @@
+/* agregar tipo grafia */
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/game1.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 90%;
+    max-width: 1300px;
+    margin: 8% auto;
+    border: 1px solid #16c751;
+    background: #978f96;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+h1{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+p{
+    color: blue;
+    font-size: 20px;
+}
+button{
+    background: transparent;
+    border: 2px solid blue;
+    padding: 12px 30px;
+    margin: 10px;
+    color: #ffff;
+    cursor: pointer;
+}
+button:hover{
+    background: #000;
+    color: green;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
